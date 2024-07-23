@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Loader from "../components/Loader/loader";
-import { useNavigate, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import useGetPostDetails from "../queries/useGetPostDetails";
 import { PostTypes } from "../interfaces";
 import { updatePost } from "../services";
