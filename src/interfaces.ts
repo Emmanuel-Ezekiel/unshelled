@@ -1,0 +1,10 @@
+export interface PostTypes {
+  userId?: number;
+  id?: number;
+  title: string;
+  body: string;
+}
+
+export interface PageClickEvent {
+  selected: number;
+}
