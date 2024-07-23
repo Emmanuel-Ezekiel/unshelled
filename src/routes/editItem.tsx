@@ -16,7 +16,6 @@ const EditItem = () => {
     title: "",
   });
   const [isSaving, setIsSaving] = useState(false);
-  const navigate = useNavigate();
 
   useEffect(() => {
     if (post) {
